@@ -1,0 +1,18 @@
+{
+    "fields": [
+        {
+            "name": "name",
+            "type": "string"
+        },
+        {
+            "name": "description",
+            "type": "text"
+        }
+    ],
+    "validations": [
+        {
+            "field": "category_name",
+            "rules": "required"
+        }
+    ]
+}
